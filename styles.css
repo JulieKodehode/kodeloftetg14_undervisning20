@@ -20,10 +20,10 @@
 /* GENERAL */
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-  margin: 0;
   font-family: var(--fontFamily);
 }
 
@@ -78,10 +78,19 @@ img {
 /* FOOTER */
 .footer {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background-color: lightgray;
+}
+
+.footerInfo {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: lightgray;
+  padding: 8px;
+  gap: 16px;
 }
 
 .arrowIcon {
